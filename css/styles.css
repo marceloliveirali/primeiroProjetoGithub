@@ -1,0 +1,31 @@
+:root {
+    --background-color1: red;
+    --background-color2: white;
+    --background-color3: blue;
+    --word-color: black;
+}
+
+* {
+    margin: 0px;
+    height: 320px;
+    color: var(--word-color);
+}
+
+.container {
+    max-width: 960px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container1 {
+    background-color: var(--background-color1);
+}
+
+#container2 {
+    background-color: var(--background-color2);
+}
+
+#container3 {
+    background-color: var(--background-color3);
+}
